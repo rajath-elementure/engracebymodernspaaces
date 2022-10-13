@@ -157,6 +157,7 @@ btn-group a  {
     .btn-group {
         display: flex;
         flex-direction: column;
+       
         
     }
     #for-mobile-view{
@@ -168,12 +169,17 @@ btn-group a  {
         align-items: center;
         justify-content: center; 
         margin-left: 5%;
+        
     }
     #desk-btn{
-       padding: 0 !important;   
+       padding-left: 13px !important;
+       align-items: center;
+       
          
     }
-}
+    
+      
+    }
 
       /* .button{
         width: 60%;
