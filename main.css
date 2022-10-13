@@ -114,7 +114,7 @@
       }
 
 /* button group-12-10 */
-btn-group button {
+btn-group a  {
     padding: 0px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     width: auto; 
@@ -126,9 +126,35 @@ btn-group button {
     font-size: 1.5rem;
     
   }
- 
+
+
+  .anchor{
+    border:1px solid black;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    display:block;
+    justify-content: center;
+    
+}
+#anchor a:hover{
+    background: black;
+    color:white;
+    text-decoration: none;
+}
+ #desk-btn{
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    padding-left: 35%;
+    
+ }
 @media  screen and (max-width: 768px){
-    .btn-group{
+    .btn-group {
         display: flex;
         flex-direction: column;
         
@@ -136,8 +162,16 @@ btn-group button {
     #for-mobile-view{
         padding: 0px;
     }
-    button{
-        display:block;
+    #btn a{
+        display:flex;
+        width: 80vw;
+        align-items: center;
+        justify-content: center; 
+        margin-left: 5%;
+    }
+    #desk-btn{
+       padding: 0 !important;   
+         
     }
 }
 
@@ -179,74 +213,4 @@ btn-group button {
       
 
       
-       /* <section id="comp-l8yf1frm1" tabindex="-1" class="VVnb2 btn-box">
-       <div id="bgLayers_comp-l8yf1frm1" data-hook="bgLayers" class="_3wnIc">
-           <div data-testid="colorUnderlay" class="_3KzuS _3SQN-"></div>
-           <div id="bgMedia_comp-l8yf1frm1" class="_2GUhU"></div>
-       </div>
-       <div data-mesh-id="comp-l8yf1frm1inlineContent" data-testid="inline-content" class="">
-           <div data-mesh-id="comp-l8yf1frm1inlineContent-gridContainer" data-testid="mesh-container-content">
-               <section id="comp-ke8m3oz6" class="_3d64y">
-                   <div id="bgLayers_comp-ke8m3oz6" data-hook="bgLayers" class="_3wnIc">
-                       <div data-testid="colorUnderlay" class="_3KzuS _3SQN-"></div>
-                       <div id="bgMedia_comp-ke8m3oz6" class="_2GUhU"></div>
-                   </div>
-                   <div data-testid="columns" class="_1uldx">
-                       <div id="comp-ke8m3p21" class="_1vNJf">
-                           <div id="bgLayers_comp-ke8m3p21" data-hook="bgLayers" class="_3wnIc">
-                               <div data-testid="colorUnderlay" class="_3KzuS _3SQN-"></div>
-                               <div id="bgMedia_comp-ke8m3p21" class="_2GUhU"></div>
-                           </div>
-                           <div data-mesh-id="comp-ke8m3p21inlineContent" data-testid="inline-content">
-                               <div data-mesh-id="comp-ke8m3p21inlineContent-gridContainer" data-testid="mesh-container-content">
-                                   <div id="comp-l8yhua8c" class="_2Hij5 _3bcaz" data-testid="richTextElement">
-                                       <h3 class="font_3" style="text-align:center; font-size:38px; font-weight:bold;">Project Resources</h3>
-                                   </div>
-                                   <div id="comp-ke8m7u8r" class="_2Hij5 _3bcaz" data-testid="richTextElement">
-                                       <p class="font_8" style="text-align:center; font-size:16px;">Click to download</p>
-                                   </div>
-                                   <div class="d-flex gap-4 px-5 d-sm-grid">
-                                       <div class="d-grid gap-2">
-                                           <div class="_2UgQw" id="comp-l8yh98bu" aria-disabled="false">
-                                               <button class="btn btn-outline-dark data-testid="linkElement" href="https://digitalbnm.wixsite.com/engrace-by-modern-sp" target="_self" class="_1fbEI" aria-disabled="false">
-                                                   Brochure
-                                               </button>
-                                           </div>
-                                           <div class="_2UgQw" id="comp-l8yh98c8" aria-disabled="false">
-                                               <button class="btn btn-outline-dark data-testid="linkElement" href="https://digitalbnm.wixsite.com/engrace-by-modern-sp" target="_self" class="_1fbEI" aria-disabled="false">
-                                                   Brochure
-                                               </button>
-                                           </div>
-                                           <div class="_2UgQw" id="comp-l8yh98ch" aria-disabled="false">
-                                               <button class="btn btn-outline-dark data-testid="linkElement" href="https://digitalbnm.wixsite.com/engrace-by-modern-sp" target="_self" class="_1fbEI" aria-disabled="false">
-                                                   Brochure
-                                               </button>
-                                           </div> 
-                                       </div>
-                                       <div class="d-grid gap-2">
-                                           <div class="_2UgQw" id="comp-l8yh98bu" aria-disabled="false">
-                                               <button class="btn btn-outline-dark data-testid="linkElement" href="https://digitalbnm.wixsite.com/engrace-by-modern-sp" target="_self" class="_1fbEI" aria-disabled="false">
-                                                   Brochure
-                                               </button>
-                                           </div>
-                                           <div class="_2UgQw" id="comp-l8yh98c8" aria-disabled="false">
-                                               <button class="btn btn-outline-dark data-testid="linkElement" href="https://digitalbnm.wixsite.com/engrace-by-modern-sp" target="_self" class="_1fbEI" aria-disabled="false">
-                                                   Brochure
-                                               </button>
-                                           </div>
-                                           <div class="_2UgQw" id="comp-l8yh98ch" aria-disabled="false">
-                                               <button class="btn btn-outline-dark data-testid="linkElement" href="https://digitalbnm.wixsite.com/engrace-by-modern-sp" target="_self" class="_1fbEI" aria-disabled="false">
-                                                   Brochure
-                                               </button>
-                                           </div> 
-                                       </div>  
-                               </div>
-                                  
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </section>
-           </div>
-       </div>
-   </section> */
+      
